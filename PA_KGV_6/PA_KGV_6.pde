@@ -6,6 +6,7 @@ int matahari = #FFFF00;
 int air = #66B2FF;
 int pulau = #66FF66;
 int gerbang = #CC0000;
+int jembatan = 255;
 PImage pagi;
 PImage malam;
 PImage pembatas;
@@ -40,6 +41,8 @@ void draw(){
     gerbang = #CC0000;
     //gunung
     gunung = loadImage("gunung.jpg");
+    //jembatan
+    jembatan = 255;
   }
   if(key == 'm'){
     //background malam
@@ -56,6 +59,8 @@ void draw(){
     gerbang = #990000;
     //gunung
     gunung = loadImage("gunung malam.png");
+    //jembatan
+    jembatan = 125;
   }
   pohon();
   gerbang();

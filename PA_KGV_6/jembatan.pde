@@ -6,7 +6,7 @@ void jembatan(){
   pushMatrix(); 
   translate(-70,420);
   noFill();
-  stroke(#FAFAFA);
+  stroke(jembatan);
   
   rotateY(mouseX*-0.00001);
   scale(0.8, 0.8, 0.8);
@@ -34,7 +34,7 @@ void jembatan(){
   //stroke(#ED1D2E);
   line(a*0.65, b*0.3655, a*0.65, b*0.378); //center
   
-  stroke(255);
+  stroke(jembatan);
   line(a*0.68, b*0.375, a*0.68, b*0.383);
   line(a*0.71, b*0.388, a*0.71, b*0.4);
   line(a*0.73, b*0.403, a*0.73, b*0.42);
@@ -58,8 +58,7 @@ void jembatan(){
   
   //stroke(#ED1D2E);
   line(a*0.65, b*0.3655, a*0.65, b*0.355); //center
-  
-  stroke(255);
+
   line(a*0.68, b*0.375, a*0.68, b*0.36);
   line(a*0.71, b*0.388, a*0.71, b*0.372);
   line(a*0.73, b*0.403, a*0.73, b*0.388);
@@ -69,9 +68,8 @@ void jembatan(){
   line(a*0.799, b*0.457, a*0.799, b*0.477);
   
   //tiang kiri
-  fill(255);
-  stroke(255);
   beginShape();
+  fill(jembatan);
   //1280 dan 720 = a dan b
   curveVertex(a*0.59, b*0.4);
   curveVertex(a*0.59, b*0.4);
@@ -88,8 +86,6 @@ void jembatan(){
   
 
   //tiang kanan
-  fill(255);
-  stroke(255);
   beginShape();
   curveVertex(a*0.71, b*0.4);
   curveVertex(a*0.71, b*0.4);
