@@ -1,7 +1,7 @@
 void gerbang(){
   pushMatrix();
   translate(width/2, height/2);
-  rotateY(mouseX*-0.0001);
+  rotateY(mouseX*-0.00001);
   noStroke();
   fill(gerbang);
   

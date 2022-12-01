@@ -18,8 +18,8 @@ void setup(){
   pembatas = loadImage("pembatas.jpg");
   gunung = loadImage("gunung.jpg");
   
-  wano = new SoundFile(this, "backsound.mp3");
-  wano.loop();
+  //wano = new SoundFile(this, "backsound.mp3");
+  //wano.loop();
 }
 
 void draw(){

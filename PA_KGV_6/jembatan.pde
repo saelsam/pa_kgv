@@ -1,15 +1,15 @@
-int a = 1280;
+int a = 1000;
 int b = 720;
 //1280 dan 720 = a dan b
 
 void jembatan(){
   pushMatrix(); 
-  translate(-380,350);
+  translate(-70,420);
   noFill();
   stroke(#FAFAFA);
   
   rotateY(mouseX*-0.00001);
-  
+  scale(0.8, 0.8, 0.8);
   //pegangan jembatan
   strokeWeight(4.5);
   bezier(a*0.5, b*0.5, a*0.6, b*0.33, a*0.7,b*0.35,a*0.8,b*0.5);

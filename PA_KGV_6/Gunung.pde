@@ -6,7 +6,7 @@ void gunung(){
   rect(-1000,100,1700,900);
   
   translate(0,0,150);
-  rotateY(mouseX*-0.0001);
+  rotateY(mouseX*-0.00001);
   
   //Daratan
   fill(pulau);
