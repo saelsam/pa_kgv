@@ -15,7 +15,7 @@ void perahu(){
   curveVertex(200,530);
   curveVertex(200,530);
   endShape();
-  
+   
   rect(95, 490, 10, 30);  
   circle(100, 480, 20);
   //topi
