@@ -4,7 +4,7 @@ int b = 720;
 
 void jembatan(){
   pushMatrix(); 
-  translate(-330,320);
+  translate(-380,350);
   noFill();
   stroke(#FAFAFA);
   
