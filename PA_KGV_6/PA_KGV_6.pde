@@ -60,6 +60,7 @@ void draw(){
   pohon();
   gerbang();
   jembatan();
+  perahu();
   pembatas();
   kuil();
   bungaUjung();
