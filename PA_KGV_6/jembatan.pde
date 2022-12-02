@@ -4,12 +4,11 @@ int b = 720;
 
 void jembatan(){
   pushMatrix(); 
-  translate(-70,420);
+  translate(-200,350);
   noFill();
   stroke(jembatan);
   
   rotateY(mouseX*-0.00001);
-  scale(0.8, 0.8, 0.8);
   //pegangan jembatan
   strokeWeight(4.5);
   bezier(a*0.5, b*0.5, a*0.6, b*0.33, a*0.7,b*0.35,a*0.8,b*0.5);
