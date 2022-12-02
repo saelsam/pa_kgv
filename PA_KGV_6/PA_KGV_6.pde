@@ -9,7 +9,7 @@ int gerbang = #CC0000;
 int jembatan = 255;
 PImage pagi;
 PImage malam;
-PImage pembatas;
+PImage pembatas;  
 PImage gunung;
 
 void setup(){
