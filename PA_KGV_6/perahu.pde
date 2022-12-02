@@ -1,5 +1,5 @@
 float x1,a1;
-float z1 = 4;
+float z1 = 2;
 void perahu(){
   pushMatrix();
   stroke(jembatan);//sementara
@@ -53,15 +53,20 @@ void perahu(){
   
   
   popMatrix();
+  
   x1 = x1+z1;
-  if(x1>=1580 | x1<0){
+  if(x1<0){
     z1 = z1*-1;
+  }
+  if(x1>=1500){
+    z1 = 0;
   }
   
   a1 = a1+z1;
-  if(a1>=1580 | a1<0){
-    z1 = z1*-1;
-    a1 = a1-1;
+  
+  if(a1>=50| a1<0){
+    //a1 = a1*-1;
+    a1 = z1-2;
   }
   
   //a1 = a1+z1;
