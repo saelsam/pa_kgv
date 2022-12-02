@@ -91,7 +91,7 @@ void jembatan(){
   
   curveVertex(a*0.71, b*0.48);
   curveVertex(a*0.715, b*0.5);
-  
+   
   curveVertex(a*0.695, b*0.5);
   curveVertex(a*0.70, b*0.48);
   
